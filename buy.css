@@ -1,0 +1,102 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Sora', sans-serif;
+  background-color: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+span,
+div,
+p,
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #000;
+  list-style: none;
+  text-decoration: none;
+  font-weight: normal;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.container header {
+  background-color: #0d0d0d;
+  padding-bottom: 15px;
+}
+.container header .head-up {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.container header .head-up .airpro {
+  padding-right: 35px;
+  width: 75px;
+}
+.container header .head-up .airpro img {
+  height: 60px;
+}
+.container header .head-up .airpro a {
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.container header .head-up .airpro a:hover {
+  color: #0071e3;
+}
+.container header .head-up .air {
+  width: 50px;
+}
+.container header .head-up .air img {
+  height: 60px;
+}
+.container header .head-up .air a {
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.container header .head-up .air a:hover {
+  color: #0071e3;
+}
+.container .left-box {
+  width: 50%;
+  float: left;
+  padding-top: 100px;
+}
+.container .left-box h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.container .left-box p {
+  font-size: 20px;
+  color: gray;
+}
+.container .left-box button {
+  margin-top: 75px;
+  padding: 15px 150px;
+  outline: none;
+  background: #0071e3;
+  border: none;
+  color: #fff;
+  border-radius: 15px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.container .left-box li:first-child {
+  padding-top: 25px;
+}
+.container .right-box {
+  width: 50%;
+  float: right;
+}
+.container .right-box img {
+  height: 780px;
+}
